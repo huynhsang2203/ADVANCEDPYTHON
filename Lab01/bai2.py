@@ -1,2 +1,6 @@
-a= 10
-print(a)
+min0 = min(max(3,4),abs(-5))
+print(min0)
+abs0 = abs(min(4,6,max(2,8)))
+print(abs0)
+round0 = round(max(5.572,3.258),abs(-2))
+print(round0)

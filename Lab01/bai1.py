@@ -1,3 +1,6 @@
-a = 5
-
-print(a)
+min0 = min(2,3,4)
+print(min0)
+max0 = max(2,-3,4,7,-5)
+print(max0)
+max1 = max(2,-3,min(4,7),5)
+print(max0)
