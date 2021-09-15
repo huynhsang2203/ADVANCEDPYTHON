@@ -5,4 +5,3 @@ def triple(num):
     9
     """
     return num ** 3
-print(num**3)
