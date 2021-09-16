@@ -8,7 +8,7 @@ def top_three_avg(grade1, grade2, grade3, grade4):
  # Here is one solution that does not use average_grade from Q6.
  total = grade1 + grade2 + grade3 + grade4
  top_three = total - min(grade1, grade2, grade3, grade4)
- return top_three / 3
+ return int(top_three / 3)
  # Here is a different solution that does use the function from Q6.
  return max(average_grade(grade1, grade2, grade3),
  average_grade(grade1, grade2, grade4),

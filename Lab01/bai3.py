@@ -1,4 +1,3 @@
 def triple(num):
-    return (num * 3)
-
+    return int(num * 3)
 print(triple(3))
