@@ -1,0 +1,7 @@
+#a. fruit.find('p', fruit.count('p'))
+fruit.count('p') then fruit.find('p', 3)
+#b. fruit.count(fruit.upper().swapcase())
+fruit.upper() then 'PINEAPPLE'.swapcase() 
+then fruit.count('pineapple')
+#c. fruit.replace(fruit.swapcase(), fruit.lower())
+fruit.swapcase() then fruit.lower() then fruit.replace('PINEAPPLE', 'pineapple')
