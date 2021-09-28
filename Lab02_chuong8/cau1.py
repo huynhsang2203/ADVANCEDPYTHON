@@ -1,4 +1,3 @@
-# cau a
 kingdoms =  ['Bacteria', 'Protozoa', 'Chromista', 'Plantae', 'Fungi','Animalia']
 print(kingdoms[0])
 # cau b
