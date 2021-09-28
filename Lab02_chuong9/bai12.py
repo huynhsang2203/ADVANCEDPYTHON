@@ -5,4 +5,6 @@ def remove_neg(num_list):
     del num_list[index]
   else:
     index += 1
-print(remove_neg(1, 2, 2, 2,3, 4))
+  return num_list
+remove_neg(num_list=[1, 2, 3, -3, 6, -1, -3, 1])
+
