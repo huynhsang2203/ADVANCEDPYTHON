@@ -5,12 +5,11 @@ def read_molecule(reader):
         return None
 
 # Name of the molecule: "COMPND name"
-    key, name = line.split()
+key, name = line.split()
 
 # Other lines are either "END" or "ATOM num atom_type x y z"
 molecule = [name]
 reading = True
-
 serial_number = 1
 while reading:
     line = reader.readline()
@@ -20,7 +19,6 @@ while reading:
         key, num, atom_type, x, y, z = line.split()
         if int(num) != serial_number:
             print('Expected serial number {0}, but got {1}'.format(serial_number, num))
-    molecule.append([atom_type, x, y, z])
-    serial_number += 1
-
-    return molecule
+            molecule.append([atom_type, x, y, z])
+            serial_number += 1
+return molecule

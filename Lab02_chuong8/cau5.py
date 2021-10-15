@@ -1,9 +1,9 @@
 alkaline_earth_metals = ['metals—beryllium','magnesium', ' calcium',' strontium','barium','radium']
-#Cau a. 
+#cau A. 
 alkaline_earth_metals = [4, 12, 20, 38, 56, 88]
-#Cau b. 
+#cau B. 
 print(alkaline_earth_metals[5], alkaline_earth_metals[-1])
-#Cau c. 
+#cau C. 
 print(len(alkaline_earth_metals))
-#Cau d. 
+#cau D. 
 print(max(alkaline_earth_metals))
